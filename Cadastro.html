@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+</head>
+
+<body>
+
+  <div class="maincontainer">
+
+
+    <form class="formContainer">
+      <div class="container1">
+        <p class="logo">SUS-QL</p>
+        <h1 class="titulo">Cadastro</h1>
+        <p class="texto4">Realize seu cadastro e tenha acesso a programas de treino e alimentação personalizados de
+          acordo com o seu perfil.
+        </p>
+
+        <h1 class="texto2">Já possuo cadastro.</h1>
+      </div>
+
+
+      <div class="container2">
+        <h1 class="texto1">Informações pessoais</h1>
+        <div class="container3">
+          <label for="primeiroNome"></label><br>
+          <input type="text" class="form1" id="primeiroNome" name="primeiroNome" placeholder="Nome"><br>
+
+          <label for="sobrenome"></label><br>
+          <input type="text" class="form1" id="sobrenome" name="sobrenome" placeholder="Sobrenome"><br>
+
+          <label for="cpf"></label><br>
+          <input type="text" class="form1" id="cpf" name="cpf" placeholder="CPF"><br>
+
+          <select class="form1" id="tipo" required>
+            <option value="0">Nacionalidade</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+
+          <select class="form1" id="tipo" required>
+            <option value="0">Sexo</option>
+            <option value="1">Feminino</option>
+            <option value="2">Masculino</option>
+          </select>
+        </div>
+
+        <h1 class="texto1">Endereço</h1>
+        <div class="container3">
+
+          <select class="form1" id="tipo" required>
+            <option value="0">País</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+
+          <select class="form1" id="tipo" required>
+            <option value="0">Estado</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+
+          <select class="form1" id="tipo" required>
+            <option value="0">Cidade</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+
+          <label for="cep"></label><br>
+          <input type="text" class="form1" id="cep" name="cep" placeholder="CEP"><br>
+
+          <label for="Rua"></label><br>
+          <input type="text" class="form1" id="Rua" name="Rua" placeholder="Rua"><br>
+
+          <label for=""></label><br>
+          <input type="text" class="form1" id="" name="" placeholder="Bairro"><br>
+
+          <label for="Número"></label><br>
+          <input type="text" class="form1" id="Número" name="Número" placeholder="Número"><br>
+
+        </div>
+
+        <div class="buttonsContainer1">
+          <div>
+            <button id="seguinte" type="submit"><a href="Informacoes de Saude.html">Seguinte</a></button>
+          </div>
+        </div>
+      </div>
+
+    </form>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
